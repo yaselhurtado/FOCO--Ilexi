@@ -1,0 +1,143 @@
+/*This is my 377 FoCo Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 377 FoCo Web Page Project ------------ */
+
+html, body { 
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+	background-image: url("images/background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;; 
+	
+	
+}
+
+.center {
+    width: 100%;
+	padding: 30 px;
+    margin: auto;
+ 	background: rgba(255, 255, 255, 0.60); /*this uses opacity of 75% for the background color*/
+	text-align: center;
+	border: 4px groove rgb(250, 152, 150);
+}
+
+   
+#logo {
+    margin-bottom: 16px;
+	border:none
+	text-align: center;
+}
+
+h1 {
+	FONT-family:Helvetica; 
+	font-size: 2.5em;
+    margin: 1px auto 10px auto;
+    color: rgb(0, 0, 0);
+	
+}
+
+h2 {
+	 FONT-FAMILY: courier ;
+	font-size: 1.5em;
+    line-height: 1.4;
+    color: rgb(0, 0, 0);
+    padding: 10px 0px;
+    margin: 10px auto;
+	border: 4px groove rgb(250, 152, 150);
+	text-align: center;
+	
+}
+
+p {
+	FONT-FAMILY: courier ;		
+	font-size: 1em;
+    line-height: 1.6;
+    color: rgb(0, 0, 0);
+	text-align: left;
+}
+nav{
+	font-family: Helvetica, sans-serif;
+	font-size: 1.3em;
+	width: 600 px;
+	text-align: center;
+	margin-top: 3 em;
+	border-width: 10s px 0;
+	margin: 10 auto;
+	border: groove
+}
+nav li{ 
+	display: inline-table;
+}
+nav a{ 
+	display: inline-flexbox;
+	padding: 10 px;
+}
+a{ 
+	color: darkgreen;
+	text-decoration: darkseagreen;
+	font-weight: bold;
+}
+a:hover{
+	color: black;
+	background: darkseagreen;
+}
+a{
+	font-family:Helvetica;
+}
